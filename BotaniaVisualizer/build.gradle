@@ -1,0 +1,6 @@
+sourceSets.main {
+    java.srcDirs project.projectDir.name
+    resources.srcDirs project.projectDir.name
+}
+version = "1.7.10-1.0a"
+dependencies { compile fileTree(dir: 'lib', include: '*.jar') }
